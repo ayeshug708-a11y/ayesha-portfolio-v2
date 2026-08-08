@@ -1,0 +1,30 @@
+.loader-container{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#090909;
+color:white;
+}
+
+.loader-circle{
+width:70px;
+height:70px;
+border:6px solid rgba(255,255,255,.2);
+border-top:6px solid #ff7eb6;
+border-radius:50%;
+animation:spin 1s linear infinite;
+margin-bottom:20px;
+}
+
+.loader-container h2{
+color:#ff7eb6;
+letter-spacing:2px;
+}
+
+@keyframes spin{
+100%{
+transform:rotate(360deg);
+}
+}
