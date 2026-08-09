@@ -1,3 +1,4 @@
+import aiGirl from "../assets/ai-girl.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import "../styles/Hero.css";
@@ -62,7 +63,7 @@ function Hero() {
         transition={{ duration: 1.2 }}
       >
         <div className="image-circle">
-          <img src="/profile.png" alt="Ayesha Minahil" />
+          <img src={aiGirl} alt="AI Girl" />
         </div>
       </motion.div>
 

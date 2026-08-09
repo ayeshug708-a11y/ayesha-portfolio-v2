@@ -1,4 +1,5 @@
 import "../styles/About.css";
+import professionalGirl from "../assets/professional-girl.png";
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
       <div className="about-container">
 
         <div className="about-image">
-          <img src="/profile.png" alt="Ayesha" />
+          <img src={professionalGirl} alt="Professional Girl" />
         </div>
 
         <div className="about-content">
@@ -27,7 +28,6 @@ function About() {
           </p>
 
           <div className="about-info">
-
 
             <div className="info-box">
               <h4>Location</h4>
